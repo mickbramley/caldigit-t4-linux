@@ -1,0 +1,4 @@
+# Replace <ACTUAL-ARRAY-UUID> with the output from `sudo mdadm --detail --scan`.
+# Do not copy a different machine's RAID UUID.
+# /etc/mdadm/mdadm.conf (partial example):
+ARRAY /dev/md0 metadata=1.2 UUID=<ACTUAL-ARRAY-UUID>

@@ -1,0 +1,3 @@
+# Source value must be the real UUID from `sudo blkid /dev/md0p1`.
+# /etc/fstab (partial example):
+UUID=<REAL-EXT4-UUID> /mnt/CalDigitT4 ext4 noatime,nofail,noauto,x-systemd.automount,x-systemd.device-timeout=60s 0 0

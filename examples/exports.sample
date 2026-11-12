@@ -1,0 +1,4 @@
+# Sanitized /etc/exports example. Limit the subnet to trusted clients.
+# Use root_squash by default. The lab's no_root_squash is NOT recommended generally.
+/mnt/CalDigitT4 192.0.2.0/24(rw,sync,no_subtree_check,root_squash)
+# 192.0.2.0/24 is documentation-only; replace with your trusted real LAN.

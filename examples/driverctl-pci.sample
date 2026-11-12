@@ -1,0 +1,7 @@
+# Run `lspci -Dnnk -d 1b21:0613` before considering overrides.
+# These PCI addresses are EXAMPLES FROM THE TESTED HOST, not universal:
+# sudo driverctl set-override 0000:09:00.0 ahci
+# sudo driverctl set-override 0000:0a:00.0 ahci
+# sudo driverctl set-override 0000:0b:00.0 ahci
+# sudo driverctl set-override 0000:0c:00.0 ahci
+# Verify each controller belongs to the T4 before use.

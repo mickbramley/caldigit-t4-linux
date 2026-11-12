@@ -1,0 +1,10 @@
+# Sanitized sample share block for /etc/samba/smb.conf.
+# Adjust authentication, ownership, path and security to your installation.
+[CalDigitT4]
+    comment = CalDigit T4 Linux mdadm RAID 5
+    path = /mnt/CalDigitT4
+    browseable = yes
+    read only = no
+    valid users = <LOCAL_USERNAME>
+    create mask = 0664
+    directory mask = 0775
